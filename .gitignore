@@ -1,0 +1,10 @@
+# 1. Ignore EVERYTHING first
+*
+
+# 2. Re-include only the files we want
+!easy_preset.py
+!neural_preset_lite.py
+!hybrid_merge.py
+
+# 3. Don't ignore the gitignore file itself
+!.gitignore
