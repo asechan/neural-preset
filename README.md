@@ -1,5 +1,7 @@
 # Hybrid Neural Preset Generator
 
+> **⚠️ Note:** This repository renders my previous `ai-style-transfer` project redundant. The hybrid approach implemented here significantly outperforms the old VGG-based method for photorealistic preset cloning and should be used instead.
+
 This project implements a hybrid approach to image style transfer, specifically designed to reverse-engineer and replicate "Lightroom-style" color presets.
 
 Unlike traditional style transfer (which often hallucinates textures or distorts edges), this tool focuses strictly on **photorealistic color grading**. It combines statistical color matching with a lightweight neural network to capture the "vibe" of a reference photo (e.g., Golden Hour, Teal & Orange, Vintage Film) and applies it to a target image without degrading its quality.
