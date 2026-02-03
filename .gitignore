@@ -5,6 +5,7 @@
 !easy_preset.py
 !neural_preset_lite.py
 !hybrid_merge.py
+!README.md
 
 # 3. Don't ignore the gitignore file itself
 !.gitignore
